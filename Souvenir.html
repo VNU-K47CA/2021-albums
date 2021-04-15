@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo Gallery of K47CA classmates - Souvenir</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Photo Gallery of K47CA classmates</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="Souvenir.html">Souvenir</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+      </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+          
+            <li data-src="media/large/Souvenir/MostOfClassmates1.jpg"
+                data-sub-html=""
+                data-download-url="media/original/Souvenir/MostOfClassmates1.jpg"
+                
+                data-filename="MostOfClassmates1.jpg"
+          
+              >
+              <a href="media/original/Souvenir/MostOfClassmates1.jpg">
+                <img src="media/thumbs/Souvenir/MostOfClassmates1.jpg"
+                     width="120"
+                     height="120"
+                     alt="MostOfClassmates1.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/Souvenir/Tags.jpg"
+                data-sub-html=""
+                data-download-url="media/original/Souvenir/Tags.jpg"
+                
+                data-filename="Tags.jpg"
+          
+              >
+              <a href="media/original/Souvenir/Tags.jpg">
+                <img src="media/thumbs/Souvenir/Tags.jpg"
+                     width="120"
+                     height="120"
+                     alt="Tags.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/Souvenir/Tour-Game1.jpg"
+                data-sub-html=""
+                data-download-url="media/original/Souvenir/Tour-Game1.jpg"
+                
+                data-filename="Tour-Game1.jpg"
+          
+              >
+              <a href="media/original/Souvenir/Tour-Game1.jpg">
+                <img src="media/thumbs/Souvenir/Tour-Game1.jpg"
+                     width="120"
+                     height="120"
+                     alt="Tour-Game1.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/Souvenir/Tour-Game2.jpg"
+                data-sub-html=""
+                data-download-url="media/original/Souvenir/Tour-Game2.jpg"
+                
+                data-filename="Tour-Game2.jpg"
+          
+              >
+              <a href="media/original/Souvenir/Tour-Game2.jpg">
+                <img src="media/thumbs/Souvenir/Tour-Game2.jpg"
+                     width="120"
+                     height="120"
+                     alt="Tour-Game2.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/Souvenir/Tour1.jpg"
+                data-sub-html=""
+                data-download-url="media/original/Souvenir/Tour1.jpg"
+                
+                data-filename="Tour1.jpg"
+          
+              >
+              <a href="media/original/Souvenir/Tour1.jpg">
+                <img src="media/thumbs/Souvenir/Tour1.jpg"
+                     width="120"
+                     height="120"
+                     alt="Tour1.jpg" />
+              </a>
+            </li>  </ul>
+    
+      <!--
+        Pagination
+      -->
+    
+      <!--
+        Zip file link
+      -->
+    
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>Copyright by K47CA@vnu.edu.vn</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
